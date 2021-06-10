@@ -1,0 +1,82 @@
+
+Семья@MV MINGW64 ~/test234
+$ git init
+Initialized empty Git repository in C:/Users/Семья/test234/.git/
+
+Семья@MV MINGW64 ~/test234 (main)
+$ git remote add origin git@github.com:msemerni/HTML_CSS_1.git
+
+Семья@MV MINGW64 ~/test234 (main)
+$ git status
+On branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+Семья@MV MINGW64 ~/test234 (main)
+$ git remote -v
+origin  git@github.com:msemerni/HTML_CSS_1.git (fetch)
+origin  git@github.com:msemerni/HTML_CSS_1.git (push)
+
+Семья@MV MINGW64 ~/test234 (main)
+$ git pull
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 3 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), 1.06 KiB | 3.00 KiB/s, done.
+From github.com:msemerni/HTML_CSS_1
+ * [new branch]      main       -> origin/main
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> main
+
+
+Семья@MV MINGW64 ~/test234 (main)
+$ ls
+
+Семья@MV MINGW64 ~/test234 (main)
+$  git branch --set-upstream-to=origin/<branch> main
+bash: branch: No such file or directory
+
+Семья@MV MINGW64 ~/test234 (main)
+$  git branch --set-upstream-to=origin main
+fatal: branch 'main' does not exist
+
+Семья@MV MINGW64 ~/test234 (main)
+$  git branch --set-upstream-to=origin/main main
+fatal: branch 'main' does not exist
+
+Семья@MV MINGW64 ~/test234 (main)
+$  git branch --set-upstream-to=main
+fatal: branch 'main' does not exist
+
+Семья@MV MINGW64 ~/test234 (main)
+$ git fetch
+
+Семья@MV MINGW64 ~/test234 (main)
+$ git checkout
+FETCH_HEAD    HEAD          main          origin/main
+
+Семья@MV MINGW64 ~/test234 (main)
+$ git checkout main
+Already on 'main'
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+Семья@MV MINGW64 ~/test234 (main)
+$ git pull
+Already up to date.
+
+Семья@MV MINGW64 ~/test234 (main)
+$ ls
+README.md  index123.php
+
+Семья@MV MINGW64 ~/test234 (main)
+$

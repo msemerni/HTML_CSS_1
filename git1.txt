@@ -1,0 +1,98 @@
+
+Семья@MV MINGW64 ~
+$ ls
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ Music/
+ NTUSER.DAT
+ NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf
+ NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OpenVPN/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ Videos/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ package-lock.json
+ source/
+ ssh
+ ssh.pub
+'Главное меню'@
+'Мои документы'@
+ Шаблоны@
+
+Семья@MV MINGW64 ~
+$ mkdir
+mkdir: missing operand
+Try 'mkdir --help' for more information.
+
+Семья@MV MINGW64 ~
+$ mkdir test123
+
+Семья@MV MINGW64 ~
+$ cd test123
+
+Семья@MV MINGW64 ~/test123
+$ git clone git@github.com:msemerni/HTML_CSS_1.git
+Cloning into 'HTML_CSS_1'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+Семья@MV MINGW64 ~/test123
+$ git remote -v
+fatal: not a git repository (or any of the parent directories): .git
+
+Семья@MV MINGW64 ~/test123
+$ ls
+HTML_CSS_1/
+
+Семья@MV MINGW64 ~/test123
+$ cd HTML_CSS_1/
+
+Семья@MV MINGW64 ~/test123/HTML_CSS_1 (main)
+$ git remote -v
+origin  git@github.com:msemerni/HTML_CSS_1.git (fetch)
+origin  git@github.com:msemerni/HTML_CSS_1.git (push)
+
+Семья@MV MINGW64 ~/test123/HTML_CSS_1 (main)
+$ git add .
+warning: LF will be replaced by CRLF in index123.php.
+The file will have its original line endings in your working directory
+
+Семья@MV MINGW64 ~/test123/HTML_CSS_1 (main)
+$ git commit -m "1st cooooommmiit"
+[main bc2a51e] 1st cooooommmiit
+ 1 file changed, 17 insertions(+)
+ create mode 100644 index123.php
+
+Семья@MV MINGW64 ~/test123/HTML_CSS_1 (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 525 bytes | 525.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:msemerni/HTML_CSS_1.git
+   846928a..bc2a51e  main -> main
+
+Семья@MV MINGW64 ~/test123/HTML_CSS_1 (main)
+$
